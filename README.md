@@ -10,7 +10,7 @@ We have used the following datasets from UCI-ML site:
 - [Auto-MPG Dataset](https://www.kaggle.com/uciml/autompg-dataset)
 - [Indian Liver Patient Dataset](https://www.kaggle.com/uciml/indian-liver-patient-records)
 
-## Datasets
+## Algorithms
 As part of this assignment, we have implemented the following algorithms:
 - K-Means
 - K-Nearest Neighbors
