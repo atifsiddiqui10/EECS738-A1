@@ -42,3 +42,19 @@ Input:
 
 Output:
 - points: A dictionary of points which can be passed to kmeans algorithm
+
+
+## Dataset: Indian Liver Patient Records
+### Columns:
+
+- 1. Age
+- 2. Gender
+- 3. Total_Bilirubin
+- 4. Direct_Bilirubin
+- 5. Alkaline_Phosphotas
+- 6. Alamine_Aminotransferase
+- 7. Aspartate_Aminotransferase
+- 8. Total_Protiens
+- 9. Albumin
+- 10. Albumin_and_Globulin_Ratio
+- 11. Dataset (Label)
