@@ -21,10 +21,11 @@ The implementation and documentation of both of these algorithms along with thei
 - [K-NN Notebook](notebooks/knn.ipynb)
 
 ---
-<p align="center">Code Summary</b></p>
+<p align="center"><b>Code Summary</b></p>
 
 ### K-Means
 __Function:__ kmean (points, clusters, DEBUG)
+
 Input:
 - points: A dictionary of points
 - clusters: Number of clusters to form
@@ -35,6 +36,7 @@ Output:
 - clusters: A dictionary of points classified in specified number of clusters
 
 __Function:__ pointify (series_1, series_2, ..., series_i)
+
 Input:
 - series_i: A number of series (i.e., column of pandas data frame or an array of values)
 
