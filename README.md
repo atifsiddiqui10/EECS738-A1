@@ -19,3 +19,24 @@ As part of this assignment, we have implemented the following algorithms:
 The implementation and documentation of both of these algorithms along with their demonstration on the chosen datasets can be seen in the following notebooks:
 - [K-Means Notebook](notebooks/kmeans.ipynb)
 - [K-NN Notebook](notebooks/knn.ipynb)
+
+---
+<p align="center">Code Summary</b></p>
+
+### K-Means
+__Function:__ kmean (points, clusters, DEBUG)
+Input:
+- points: A dictionary of points
+- clusters: Number of clusters to form
+- DEBUG: Enable visualization and print debugging information every step of the way in the algorithm
+
+Output:
+- centers: A list of cluster centers formed by Kmeans
+- clusters: A dictionary of points classified in specified number of clusters
+
+__Function:__ pointify (series_1, series_2, ..., series_i)
+Input:
+- series_i: A number of series (i.e., column of pandas data frame or an array of values)
+
+Output:
+- points: A dictionary of points which can be passed to kmeans algorithm
